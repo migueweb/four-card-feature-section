@@ -1,0 +1,63 @@
+//primary 
+$red: #ea5353;
+$cyan: #45d3d3;
+$orange: #fcaf4a;
+$blue: #549ef2;
+//Neutral
+$very-dark-Blue: #4c4e61;
+$grayish-blue: #a3a5ae;
+$very-light-gray: #fafafa;
+
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap";
+@import "../bootstrap/scss/bootstrap.scss";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $very-light-gray;
+}
+.title {
+    font-weight: bold;
+    color: $very-dark-Blue;
+}
+.text {
+    text-align: center;
+    margin: 1.5rem auto .5rem auto;
+    color: $grayish-blue;
+}
+.card {
+    margin: 1rem .5rem;
+    border: none;
+    padding: 2rem;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.104);
+    h2 {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    p {
+        color: $grayish-blue;
+    }
+}
+.card__image {
+    width: 100%;
+    padding-top: 2rem;
+    img {
+        float: right;
+    }
+}
+.border-cyan {
+    border-top: solid .4rem $cyan;
+}
+.border-red {
+    border-top: solid .4rem $red;
+}
+.border-orange {
+    border-top: solid .4rem $orange;
+}
+.border-blue {
+    border-top: solid .4rem $blue;
+}
+@include media-breakpoint-up(lg) { 
+    .text {
+        width: 45%;
+    }
+}
