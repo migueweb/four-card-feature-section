@@ -16,8 +16,8 @@ Users should be able to:
 ![](./images/screenshot.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/migueweb/four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://migueweb.github.io/four-card-feature-section)
+- Solution URL: [github.com/migueweb/four-card-feature-section](https://github.com/migueweb/four-card-feature-section)
+- Live Site URL: [migueweb.github.io/four-card-feature-section](https://migueweb.github.io/four-card-feature-section)
 
 ## My process
 
